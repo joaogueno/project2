@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    background-color: rgba(37, 39, 39, 0.322);
+    max-width: 300px;
+    margin: auto;
+    padding: 30px;
+    margin-top: 100px;
+    box-sizing: border-box;
+    
+}
+
+#h1button {
+    cursor: pointer;
+    margin: auto;
+    /* margin-top: 100px; */
+    text-align: center; 
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+    max-width: 200px;
+    background-color: hsl(214, 100%, 75%);
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 20px;
+    transition: 0.2s;
+}
+
+#h1button:hover {
+    transform: scale(0.960);
+    transition: 0.2s;
+    opacity: 70%;
+    
+}
+
+#h1button:active {
+    transform: scale(1.100);
+    transition: 0.5s;
+    opacity: 50%;
+}
+
+.texto {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#text {
+    border: solid 1px black;
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+
+#ptexto {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: px;
+    max-width: 200px;
+    margin: auto;
+    background-color: rgb(148, 148, 148);
+    padding: 10px;
+    border-radius: 10px;
+   
+}
+
+.hidden {
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: 0.3s;
+    
+}
+
+.hidden:hover {
+    cursor: pointer;
+    transform: scale(95%);
+    transition: 0.2s;
+    
+}
+
+.hidden:active {
+    cursor: pointer;
+    transform: scale(100%);
+    transition: 0.2s;
+    
+}
+
+body {
+    background-color: rgba(92, 92, 92, 0);
+    margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+
+.click {
+    text-align: center;
+    background-color: crimson;
+    padding: 10px;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 200px;
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    
+    
+    
+
+}
+
+.click:hover {
+    text-decoration: underline;    
+   
+  
+
+}
+#joao {
+    background-color: lightskyblue;
+    padding: 8px;
+    margin-top: 20px;
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    
+}
